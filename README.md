@@ -32,7 +32,7 @@ We assume that you already installed REDIS. Let REDIS_IP be the IP address used 
 
 Please edit the file [setup-env.sh](setup-env.sh), and set the value of `REDIS_IP`.
 
-SEt the environment:
+Set the environment:
 
 ```bash
 source setup-env.sh
