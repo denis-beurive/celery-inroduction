@@ -9,15 +9,20 @@ pip install pipenv -U
 
 > Please make sure to update `pipenv` (`pip install pipenv -U`). You need the last version.
 
-Install the Celery Python dependencies:
+```bash
+git clone git@github.com:denis-beurive/celery-inroduction.git
+cd celery-inroduction
+```
+
+Install the Python dependencies:
 
 ```bash
-pipenv install "celery[redis]"
+pipenv install
 ```
 
 > We use REDIS over Rabbit-MQ since it is much lighter to install and configure.
 
-Activate the shell (if not already activated):
+Activate the shell:
 
 ```bash
 pipenv shell
