@@ -30,11 +30,13 @@ pipenv shell
 
 We assume that you already installed REDIS. Let REDIS_IP be the IP address used by REDIS to listen to messages.
 
-```bash
-export REDIS_IP=172.16.177.128
-```
+Please edit the file [setup-env.sh](setup-env.sh), and set the value of `REDIS_IP`.
 
-> Please edit the file [setup-env.sh](setup-env.sh), and set the value of `REDIS_IP`.
+SEt the environment:
+
+```bash
+source setup-env.sh
+```
 
 Make sure that REDIS is started.
 
